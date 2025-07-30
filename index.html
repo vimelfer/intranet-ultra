@@ -39,31 +39,21 @@
   <!-- CONTEÚDO PRINCIPAL -->
   <main class="layout-grid">
 
-    <!-- COLUNA ESQUERDA -->
-    <aside class="sidebar">
-      <div class="card user">
-        <img src="avatar.jpg" alt="Avatar Usuário">
-        <h3>João da Manga</h3>
-        <p>Setor: Atendimento</p>
-      </div>
+<!-- COLUNA ESQUERDA -->
+<aside class="sidebar">
+  <div class="card birthday">
+    <h4>Aniversariantes do Mês</h4>
+    <ul id="aniversariantes-list"></ul>
+  </div>
+</aside>
 
-      <div class="card birthday">
-        <h4>Aniversariantes do Mês</h4>
-        <ul>
-          <li><img src="img/user1.jpg"> 03 - Fernanda</li>
-          <li><img src="img/user2.jpg"> 06 - Brenda</li>
-          <li><img src="img/user3.jpg"> 06 - Camila</li>
-        </ul>
-      </div>
-    </aside>
-
-  <!-- COLUNA CENTRAL -->
+<!-- COLUNA CENTRAL -->
 <section class="main-content">
   <div class="card date-box">
     <h2 id="greeting">Olá!</h2>
     <h1 id="current-date">01/07</h1>
     <p id="weekday">Segunda-feira</p>
-    <i id="weather-icon" class="fa fa-cloud-sun"></i>
+    <span id="weather-info"></span>
   </div>
 </section>
 
@@ -107,5 +97,6 @@
     <p>&copy; 2025 - Intranet Ultramedical</p>
   </footer>
   <script src="date-greeting.js"></script>
+  <script src="aniversariantes.js"></script>
 </body>
 </html>
